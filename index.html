@@ -26,6 +26,33 @@
             color: white;
             padding: 30px 0;
         }
+
+        .seccion-nueva {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 2px dashed #dee2e6;
+        }
+
+        .texto-resaltado {
+            color: #c92a2a;
+            font-weight: 700;
+        }
+
+        .img-hover {
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .img-hover:hover {
+            transform: scale(1.03);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
+        }
+
+        .lista-menu li {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            padding-left: 10px;
+            border-left: 4px solid #c92a2a;
+        }
     </style>
 </head>
 
@@ -98,6 +125,28 @@
                 <div class="col-md-6">
                     <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&q=80&w=600"
                         class="img-fluid rounded shadow" alt="Horno de leña">
+                </div>
+            </div>
+
+            <div class="row align-items-center seccion-nueva">
+                <div class="col-md-6 order-md-2">
+                    <h3 class="texto-resaltado">La Auténtica Media Masa</h3>
+                    <p>Nuestra especialidad es la pizza de "media masa", un verdadero ícono porteño. Con una base alta,
+                        esponjosa por dentro y crocante por debajo, coronada con abundante mozzarella que se desborda en
+                        cada porción.</p>
+                    <p>Ya sea para comer de parados en nuestro clásico mostrador o sentados en el salón familiar, te
+                        invitamos a probar nuestros clásicos más pedidos:</p>
+                    <ul class="list-unstyled mt-3 lista-menu">
+                        <li><strong>La Gran Muzzarella:</strong> Nuestra receta estrella con aceitunas verdes.</li>
+                        <li><strong>Fugazzetta Rellena:</strong> Queso desbordante, cebolla confitada y pura felicidad.
+                        </li>
+                        <li><strong>Especial de Jamón y Morrones:</strong> El equilibrio perfecto de sabores clásicos.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 order-md-1 mb-4 mb-md-0">
+                    <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&q=80&w=600"
+                        class="img-fluid rounded shadow img-hover" alt="Clásica pizza de muzzarella">
                 </div>
             </div>
         </div>
